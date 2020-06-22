@@ -1,5 +1,5 @@
 public class AccountList {
-    //first comment of Bala Narendra
+    //first comment of Bala Narendra for jenkins
     @AuraEnabled
     public static List<Account> queryAccountList(string accountName){
         string name= '%'+accountName+'%';
